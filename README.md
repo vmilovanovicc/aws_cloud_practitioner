@@ -16,14 +16,14 @@
 
 | No | Module                                    | 
 |----| ----------------------------------------- |
-| 1  | Introduction to AWS                            | 
-| 2  | Compute in the Cloud                   |
-| 3  | Global Infrastructure                                | 
-| 4  | Networking                      | 
-| 5  | Storage                             | 
-| 6  | Databases                   |
-| 7  | Security                                | 
-| 8  | Monitoring and Analytics                       |
-| 9  | Pricing and Support                               | 
-| 10 | Migration and Innovation                      |  
-| 11 | AWS Well-Architected Framework |
+| 1  | [Introduction to AWS](01_cloud_concepts.md)                            | 
+| 2  | [Compute in the Cloud](02_computing.md)                   |
+| 3  | [Global Infrastructure](03_infrastructure.md)                                | 
+| 4  | [Networking](04_networking.md)                      | 
+| 5  | [Storage](05_storage.md)                             | 
+| 6  | [Databases](06_databases.md)                   |
+| 7  | [Security](07_security.md)                              | 
+| 8  | [Monitoring and Analytics](08_monitoring.md)                       |
+| 9  | [Pricing and Support](09_pricing.md)                               | 
+| 10 | [Migration and Innovation](10_migration.md)                      |  
+| 11 | [AWS Well-Architected Framework](11_aws_well_architected.md) |
