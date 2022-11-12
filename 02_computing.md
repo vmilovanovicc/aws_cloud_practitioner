@@ -27,7 +27,26 @@ Some **benefits** of using Amazon EC2 include:
 
 ## [Amazon EC2 instance types](#amazon-ec2-instance-types)
 
+1. **General purpose instances provide a balance of compute, memory, and networking resources.** 
 
+If you have an application in which the resource needs for compute, memory, and networking are roughly equivalent, you might consider running it on a general purpose instance because the application does not require optimization in any single resource area.
+
+2. **Compute optimized instances are ideal for compute-bound applications that benefit from high-performance processors.** 
+
+Ideal for compute-intensive tasks like gaming servers, high performance computing or HPC, and even scientific modeling.
+
+3. **Memory optimized instances are designed to deliver fast performance for workloads that process large datasets in memory.**
+
+4. **Accelerated computing instances use hardware accelerators, or coprocessors, to perform some functions more efficiently than is possible in software running on CPUs.**
+
+Examples of these functions include floating-point number calculations, graphics processing, and data pattern matching. Accelerated computing instances are ideal for workloads such as graphics applications, game streaming, and application streaming.
+
+5. **Storage optimized instances are designed for workloads that require high, sequential read and write access to large datasets on local storage.** 
+
+---
+
+### Notes
+- In computing, the term *input/output operations per second (IOPS)* is a metric that measures the performance of a storage device. *Storage optimized* instances are designed to deliver tens of thousands of low-latency, random IOPS to applications. 
 
 ---
 
