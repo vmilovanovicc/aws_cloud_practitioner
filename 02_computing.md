@@ -45,8 +45,37 @@ Examples of these functions include floating-point number calculations, graphics
 
 ---
 
+## [Amazon EC2 Pricing](#amazon-ec2-pricing)
+
+1. **On-Demand Instances are ideal for short-term, irregular workloads that cannot be interrupted.**
+
+*Use cases:* developing and testing applications and running applications that have unpredictable usage patterns. Not recommended for workloads that last a year or longer.
+
+2. **Amazon EC2 Savings Plans enable you to reduce your compute costs by committing to a consistent amount of compute usage for a 1-year or 3-year term.**
+
+This term commitment results in savings of up to **72%** over On-Demand costs.
+
+3. **Reserved Instances are a billing discount applied to the use of On-Demand Instances in your account.**
+
+You can purchase **Standard Reserved** and **Convertible Reserved** Instances for a 1-year or 3-year term, and **Scheduled Reserved** Instances for a 1-year term. 
+
+4. **Spot Instances are ideal for workloads with flexible start and end times, or that can withstand interruptions.**
+
+Spot Instances use unused Amazon EC2 computing capacity and offer you cost savings at up to **90% off** of On-Demand prices.
+
+5. **Dedicated Hosts are physical servers with Amazon EC2 instance capacity that is fully dedicated to your use.** 
+
+You can use your existing *per-socket, per-core, or per-VM* software licenses to help maintain license compliance. 
+
+You can purchase **On-Demand Dedicated Hosts** and **Dedicated Hosts Reservations.** 
+
+---
+
 ### Notes
 - In computing, the term *input/output operations per second (IOPS)* is a metric that measures the performance of a storage device. *Storage optimized* instances are designed to deliver tens of thousands of low-latency, random IOPS to applications. 
+- **AWS Cost Explorer is a tool that enables you to visualize, understand, and manage your AWS costs and usage over time.**
+-  If you are considering your options for Savings Plans, AWS Cost Explorer can analyze your Amazon EC2 usage over the past 7, 30, or 60 days. 
+- Of all the Amazon EC2 Pricing options that were covered, **Dedicated Hosts are the most expensive.**
 
 ---
 
