@@ -71,11 +71,47 @@ You can purchase **On-Demand Dedicated Hosts** and **Dedicated Hosts Reservation
 
 ---
 
-### Notes
+## [Amazon EC2 Scaling](#amazon-ec2-scaling)
+
+### [Scalability](#scalability)
+
+**Scalability involves beginning with only the resources you need and designing your architecture to automatically respond to changing demand by scaling out or in.** 
+
+If you want the scaling process to happen automatically, the AWS service that provides this functionality for Amazon EC2 instances is **Amazon EC2 Auto Scaling.**
+
+### [Amazon EC2 Auto Scaling](#amazon-ec2-auto-scaling)
+
+**Amazon EC2 Auto Scaling enables you to automatically add or remove Amazon EC2 instances in response to changing application demand.**
+It also ensures high availability. 
+
+**Scaling out (horizontal scaling)** is when you add more instances to your Auto Scaling Group and **scaling in** is when you reduce the number of instances in your Auto Scaling Group.
+
+Within Amazon EC2 Auto Scaling, you can use two approaches: *dynamic scaling* and *predictive scaling*.
+
+* **Dynamic scaling responds to changing demand.**
+
+* **Predictive scaling automatically schedules the right number of Amazon EC2 instances based on predicted demand.**
+
+### [Amazon EC2 Autoscaling Example](#amazon-ec2-autoscaling-example)
+
+When you create an Auto Scaling group, you can set the minimum number of Amazon EC2 instances. 
+
+![example](images/auto_scaling_group_example.png "Auto Scaling Group Example")
+
+
+* The **minimum capacity** is the number of Amazon EC2 instances that launch immediately after you have created the Auto Scaling group.
+* You can set the **desired capacity** at two Amazon EC2 instances even though your application needs a minimum of a single Amazon EC2 instance to run.
+* You can set the **maximum capacity**. For example, you might configure the Auto Scaling group to scale out in response to increased demand, but only to a maximum of four Amazon EC2 instances.
+
+---
+
+### [Notes](#notes)
 - In computing, the term *input/output operations per second (IOPS)* is a metric that measures the performance of a storage device. *Storage optimized* instances are designed to deliver tens of thousands of low-latency, random IOPS to applications. 
 - **AWS Cost Explorer is a tool that enables you to visualize, understand, and manage your AWS costs and usage over time.**
 -  If you are considering your options for Savings Plans, AWS Cost Explorer can analyze your Amazon EC2 usage over the past 7, 30, or 60 days. 
 - Of all the Amazon EC2 Pricing options that were covered, **Dedicated Hosts are the most expensive.**
+- To scale faster, you can use dynamic scaling and predictive scaling together.
+- If you do not specify the desired number of Amazon EC2 instances in an Auto Scaling group, the desired capacity defaults to your minimum capacity.
 
 ---
 
