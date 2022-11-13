@@ -121,6 +121,26 @@ Elastic Load Balancing runs at the *Region level* rather than on individual EC2 
 
 ![example](images/high_demand.png "ELB High Demand")
 
+---
+
+## [Monolithic Apps vs Microservices](#monolithic-apps-vs-microservices)
+
+If you have an app with *tightly coupled* components, this type of architecture can be considered a **monolithic application**.
+
+In this approach to application architecture, **if a single component fails, other components fail, and possibly the entire application fails.**
+
+![example](images/monolithic.png "Monolithic app")
+
+In a **microservices** approach, application components are loosely coupled. 
+
+In this case, **if a single component fails, the other components continue to work because they are communicating with each other.**
+
+![example](images/microservices.png "Microservices")
+
+
+Two services facilitate application integration: 
+* **Amazon Simple Notification Service (Amazon SNS)**
+* **Amazon Simple Queue Service (Amazon SQS).**
 
 ---
 
