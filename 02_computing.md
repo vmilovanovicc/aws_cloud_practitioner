@@ -92,7 +92,7 @@ Within Amazon EC2 Auto Scaling, you can use two approaches: *dynamic scaling* an
 
 * **Predictive scaling automatically schedules the right number of Amazon EC2 instances based on predicted demand.**
 
-### [Amazon EC2 Autoscaling Example](#amazon-ec2-autoscaling-example)
+### [Amazon EC2 Auto Scaling Example](#amazon-ec2-auto-scaling-example)
 
 When you create an Auto Scaling group, you can set the minimum number of Amazon EC2 instances. 
 
@@ -105,6 +105,25 @@ When you create an Auto Scaling group, you can set the minimum number of Amazon 
 
 ---
 
+## [Elastic Load Balancing](#elastic-load-balancing)
+
+A load balancer is an application that takes in requests and routes them to the instances to be processed.
+
+**Elastic Load Balancing is the AWS service that automatically distributes incoming application traffic across multiple resources.**
+
+Elastic Load Balancing runs at the *Region level* rather than on individual EC2 instances.
+
+* *ELB Low-demand Example*
+
+![example](images/low_demand.png "ELB Low Demand")
+
+* *ELB High-demand Example*
+
+![example](images/high_demand.png "ELB High Demand")
+
+
+---
+
 ### [Notes](#notes)
 - In computing, the term *input/output operations per second (IOPS)* is a metric that measures the performance of a storage device. *Storage optimized* instances are designed to deliver tens of thousands of low-latency, random IOPS to applications. 
 - **AWS Cost Explorer is a tool that enables you to visualize, understand, and manage your AWS costs and usage over time.**
@@ -112,6 +131,7 @@ When you create an Auto Scaling group, you can set the minimum number of Amazon 
 - Of all the Amazon EC2 Pricing options that were covered, **Dedicated Hosts are the most expensive.**
 - To scale faster, you can use dynamic scaling and predictive scaling together.
 - If you do not specify the desired number of Amazon EC2 instances in an Auto Scaling group, the desired capacity defaults to your minimum capacity.
+- 
 
 ---
 
