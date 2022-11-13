@@ -144,6 +144,26 @@ Two services facilitate application integration:
 
 ---
 
+## [Amazon SNS](#amazon-sns)
+
+**Amazon Simple Notification Service (Amazon SNS) is a publish/subscribe service.**
+
+Using Amazon SNS topics, a publisher publishes messages to subscribers.Subscribers can be web servers, email addresses, AWS Lambda functions...
+
+It is possible for subscribers to subscribe to a single topic or to multiple topics.
+
+---
+
+## [Amazon SQS](#amazon-sqs)
+
+**Amazon Simple Queue Service (Amazon SQS) is a message queuing service.** 
+
+Using Amazon SQS, you can send, store, and receive messages between software components, without losing messages or requiring other services to be available. 
+
+In Amazon SQS, an application sends messages into a queue. A user or service retrieves a message from the queue, processes it, and then deletes it from the queue.
+
+---
+
 ### [Notes](#notes)
 - In computing, the term *input/output operations per second (IOPS)* is a metric that measures the performance of a storage device. *Storage optimized* instances are designed to deliver tens of thousands of low-latency, random IOPS to applications. 
 - **AWS Cost Explorer is a tool that enables you to visualize, understand, and manage your AWS costs and usage over time.**
