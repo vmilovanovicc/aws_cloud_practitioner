@@ -81,7 +81,7 @@ If you want the scaling process to happen automatically, the AWS service that pr
 
 ---
 
-### [Amazon EC2 Auto Scaling](#amazon-ec2-auto-scaling)
+## [Amazon EC2 Auto Scaling](#amazon-ec2-auto-scaling)
 
 **[Amazon EC2 Auto Scaling](https://aws.amazon.com/ec2/autoscaling/) enables you to automatically add or remove Amazon EC2 instances in response to changing application demand.**
 It also ensures high availability. 
@@ -107,7 +107,7 @@ When you create an Auto Scaling group, you can set the minimum number of Amazon 
 
 ---
 
-## [Elastic Load Balancing](#elastic-load-balancing)
+# [Elastic Load Balancing](#elastic-load-balancing)
 
 A load balancer is an application that takes in requests and routes them to the instances to be processed.
 
@@ -146,7 +146,7 @@ Two services facilitate application integration:
 
 ---
 
-## [Amazon SNS](#amazon-sns)
+# [Amazon SNS](#amazon-sns)
 
 **[Amazon Simple Notification Service (Amazon SNS)](https://aws.amazon.com/sns/) is a publish/subscribe service.**
 
@@ -156,7 +156,7 @@ It is possible for subscribers to subscribe to a single topic or to multiple top
 
 ---
 
-## [Amazon SQS](#amazon-sqs)
+# [Amazon SQS](#amazon-sqs)
 
 **[Amazon Simple Queue Service (Amazon SQS)](https://aws.amazon.com/sqs/) is a message queuing service.** 
 
@@ -180,7 +180,7 @@ Another benefit of serverless computing is the flexibility to scale serverless a
 
 ---
 
-### [AWS Lambda](#aws-lambda)
+# [AWS Lambda](#aws-lambda)
 
 **[AWS Lambda](https://aws.amazon.com/lambda) is a service that lets you run code without needing to provision or manage servers.** 
 
@@ -198,7 +198,7 @@ AWS Lambda is a service that allows you to upload your code into what's called a
 
 ---
 
-### [Amazon ECS](#amazon-ecs)
+# [Amazon ECS](#amazon-ecs)
 
 **[Amazon Elastic Container Service (Amazon ECS)](https://aws.amazon.com/ecs/) is a highly scalable, high-performance container management system that enables you to run and scale containerized applications on AWS.**
 
@@ -208,7 +208,7 @@ AWS supports the use of *open-source* **Docker Community Edition** and *subscrip
 
 ---
 
-### [Amazon EKS](#amazon-eks)
+# [Amazon EKS](#amazon-eks)
 
 **[Amazon Elastic Kubernetes Service (Amazon EKS)](https://aws.amazon.com/eks/) is a fully managed service that you can use to run Kubernetes on AWS.** 
 
@@ -216,7 +216,7 @@ AWS supports the use of *open-source* **Docker Community Edition** and *subscrip
 
 ---
 
-### [AWS Fargate](#aws-fargate)
+# [AWS Fargate](#aws-fargate)
 
 **[AWS Fargate](https://aws.amazon.com/fargate/) is a serverless compute engine for containers. It works with both Amazon ECS and Amazon EKS.** 
 
@@ -224,7 +224,7 @@ When using AWS Fargate, you do not need to provision or manage servers.
 
 ---
 
-### [Compute Options](#compute-options)
+## [Compute Options](#compute-options)
 - If you are trying to host traditional applications and want full access to the underlying operating system like Linux or Windows, you are going to want to use **EC2**.
 - If you are looking to host short running functions, service-oriented or event driven applications and you don't want to manage the underlying environment at all, look into the serverless **AWS Lambda**.
 -  If you are looking to run Docker container-based workloads on AWS, you first need to choose your *orchestration* tool. Do you want to use **Amazon ECS or Amazon EKS**? 
@@ -232,7 +232,7 @@ When using AWS Fargate, you do not need to provision or manage servers.
 
 ---
 
-### [Notes](#notes)
+## [Notes](#notes)
 - In computing, the term *input/output operations per second (IOPS)* is a metric that measures the performance of a storage device. *Storage optimized* instances are designed to deliver tens of thousands of low-latency, random IOPS to applications. 
 - **AWS Cost Explorer is a tool that enables you to visualize, understand, and manage your AWS costs and usage over time.**
 -  If you are considering your options for Savings Plans, AWS Cost Explorer can analyze your Amazon EC2 usage over the past 7, 30, or 60 days. 
@@ -241,9 +241,6 @@ When using AWS Fargate, you do not need to provision or manage servers.
 - If you do not specify the desired number of Amazon EC2 instances in an Auto Scaling group, the desired capacity defaults to your minimum capacity.
 - When you use Docker containers on AWS, you need processes to start, stop, restart, and monitor containers running across not just one EC2 instance, but a number of them together which is called a cluster. The process of doing these tasks is called **container orchestration**.
 - **AWS Fargate** is a serverless compute platform for ECS or EKS.
-
-
-
 
 ---
 
