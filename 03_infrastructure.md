@@ -92,6 +92,29 @@ AWS Edge locations also run a **domain name service, or DNS,** known as **[Amazo
 
 ---
 
+# [Infrastructure Provisioning](#infrastructure-provisioning)
+
+## [Ways to interact with AWS services](#ways-to-interact-with-aws-services)
+
+1. **AWS Management Console**
+2. **AWS Command Line Interface**
+3. **Software Development Kits**
+
+The **AWS Management Console** is a web-based interface for accessing and managing AWS services. 
+
+**AWS CLI** enables you to control multiple AWS services directly from the command line within one tool.
+
+**SDKs** make it easier for you to use AWS services through an API designed for your programming language or platform. 
+
+---
+
+# [Infrastructure Provisioning Notes](#infrastructure-provisioning-notes)
+
+- In AWS, everything is an API call.
+- AWS CLI is available for users on Windows, macOS, and Linux. 
+
+---
+
 # References
 
 - [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure)
