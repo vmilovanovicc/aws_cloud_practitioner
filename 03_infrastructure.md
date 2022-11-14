@@ -106,12 +106,37 @@ The **AWS Management Console** is a web-based interface for accessing and managi
 
 **SDKs** make it easier for you to use AWS services through an API designed for your programming language or platform. 
 
+There are also other ways you can manage your AWS environment using managed tools like **AWS Elastic Beanstalk**, and **AWS CloudFormation.** 
+
+---
+
+## [AWS Elastic Beanstalk](#aws-elastic-beanstalk)
+
+**[AWS Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) is a service that helps you provision Amazon EC2-based environments.**
+
+With AWS Elastic Beanstalk, you provide code and configuration settings, and Elastic Beanstalk deploys the resources necessary to perform the following tasks:
+- Adjust capacity
+- Load balancing
+- Automatic scaling
+- Application health monitoring.
+
+---
+
+## [AWS CloudFormation](#aws-cloudformation)
+
+**[AWS CloudFormation](https://aws.amazon.com/cloudformation/) is an infrastructure as code tool that allows you to define a wide variety of AWS resources in a declarative way using JSON or YAML text-based documents called CloudFormation templates.** 
+
 ---
 
 # [Infrastructure Provisioning Notes](#infrastructure-provisioning-notes)
 
 - In AWS, everything is an API call.
 - AWS CLI is available for users on Windows, macOS, and Linux. 
+- You can run the same CloudFormation template in multiple accounts or multiple regions, and it will create identical environments across them.
+- The AWS Management Console is great for learning and providing a visual for the user. 
+- The AWS Management Console is a manual tool, so it isn't a great option for automation. 
+- You can instead use the CLI to script your interactions with AWS using the terminal. 
+- You can use the SDKs to write programs to interact with AWS for you or you can use manage tools like AWS Elastic Beanstalk or AWS CloudFormation.
 
 ---
 
