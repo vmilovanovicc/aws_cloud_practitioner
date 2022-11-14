@@ -42,6 +42,16 @@ A **virtual private network (VPN)** connection encrypts (or protects) your inter
 
 ---
 
+## [AWS Direct Connect](#aws-direct-connect)
+
+**[AWS Direct Connect](https://aws.amazon.com/directconnect/) is a service that enables you to establish a dedicated private connection between your data center and a VPC.**
+
+![example](images/direct_connect.png "AWS Direct Connect")
+
+The private connection that AWS Direct Connect provides helps you to *reduce network costs* and *increase the amount of bandwidth* that can travel through your network.
+
+---
+
 # [Notes](#notes)
 
 - One VPC might have multiple types of gateways attached for multiple types of resources all residing in the same VPC, just in different subnets. 
