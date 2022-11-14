@@ -4,7 +4,7 @@
 
 **A Region is a geographical area that contains AWS resources.**
 
-Each **AWS Region** consists of multiple isolated and physically separate Availability Zones within a geographic Region.
+Each **AWS Region** consists of two or more isolated and physically separate Availability Zones within a geographic Region.
 
 Inside each Region, there are multiple data centers that have all the compute, storage, and other services you need to run your applications. 
  
