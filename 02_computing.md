@@ -79,9 +79,11 @@ You can purchase **On-Demand Dedicated Hosts** and **Dedicated Hosts Reservation
 
 If you want the scaling process to happen automatically, the AWS service that provides this functionality for Amazon EC2 instances is **Amazon EC2 Auto Scaling.**
 
+---
+
 ### [Amazon EC2 Auto Scaling](#amazon-ec2-auto-scaling)
 
-**Amazon EC2 Auto Scaling enables you to automatically add or remove Amazon EC2 instances in response to changing application demand.**
+**[Amazon EC2 Auto Scaling](https://aws.amazon.com/ec2/autoscaling/) enables you to automatically add or remove Amazon EC2 instances in response to changing application demand.**
 It also ensures high availability. 
 
 **Scaling out (horizontal scaling)** is when you add more instances to your Auto Scaling Group and **scaling in** is when you reduce the number of instances in your Auto Scaling Group.
@@ -109,7 +111,7 @@ When you create an Auto Scaling group, you can set the minimum number of Amazon 
 
 A load balancer is an application that takes in requests and routes them to the instances to be processed.
 
-**Elastic Load Balancing is the AWS service that automatically distributes incoming application traffic across multiple resources.**
+**[Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/) is the AWS service that automatically distributes incoming application traffic across multiple resources.**
 
 Elastic Load Balancing runs at the *Region level* rather than on individual EC2 instances.
 
@@ -146,7 +148,7 @@ Two services facilitate application integration:
 
 ## [Amazon SNS](#amazon-sns)
 
-**Amazon Simple Notification Service (Amazon SNS) is a publish/subscribe service.**
+**[Amazon Simple Notification Service (Amazon SNS)](https://aws.amazon.com/sns/) is a publish/subscribe service.**
 
 Using Amazon SNS topics, a publisher publishes messages to subscribers.Subscribers can be web servers, email addresses, AWS Lambda functions...
 
@@ -156,7 +158,7 @@ It is possible for subscribers to subscribe to a single topic or to multiple top
 
 ## [Amazon SQS](#amazon-sqs)
 
-**Amazon Simple Queue Service (Amazon SQS) is a message queuing service.** 
+**[Amazon Simple Queue Service (Amazon SQS)](https://aws.amazon.com/sqs/) is a message queuing service.** 
 
 Using Amazon SQS, you can send, store, and receive messages between software components, without losing messages or requiring other services to be available. 
 
@@ -247,3 +249,9 @@ When using AWS Fargate, you do not need to provision or manage servers.
 
 # References
 
+* [Compute on AWS](https://aws.amazon.com/products/compute)
+* [AWS Compute Blog](https://aws.amazon.com/blogs/compute/)
+* [AWS Compute Services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html) *Whitepaper*
+* [Hands-On Tutorials:Compute](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-category=category%23compute&awsf.getting-started-content-type=content-type%23hands-on)
+* [Deep Dive: Serverless](https://aws.amazon.com/getting-started/deep-dive-serverless/)
+* [AWS Case Studies: Serverless](https://aws.amazon.com/solutions/case-studies/?customer-references-cards.sort-by=item.additionalFields.publishedDate&customer-references-cards.sort-order=desc&awsf.customer-references-location=*all&awsf.customer-references-segment=*all&awsf.customer-references-product=product%23vpc%7Cproduct%23api-gateway%7Cproduct%23cloudfront%7Cproduct%23route53%7Cproduct%23directconnect%7Cproduct%23elb&awsf.customer-references-category=category%23serverless)
