@@ -87,7 +87,7 @@ AWS Edge locations also run a **domain name service, or DNS,** known as **[Amazo
 
 - Amazon Braket is a quantum computing platform.
 - Latency is the time between when content requested and received.
-- It's always recommended you deploy your infrastructure across *at least* *two* Availability Zones in a Region. 
+- **It's always recommended you deploy your infrastructure across *at least* *two* Availability Zones in a Region.** Some AWS services like Elastic Load Balancing, Amazon SQS, and Amazon SNS already do this for you.  
 - AWS ELB is actually a regional construct. It runs across all Availability Zones, communicating with the EC2 instances that are running in a specific Availability Zone. 
 
 ---
@@ -143,4 +143,8 @@ With AWS Elastic Beanstalk, you provide code and configuration settings, and Ela
 # References
 
 - [AWS Global Infrastructure](https://aws.amazon.com/about-aws/global-infrastructure)
+- [Interactive map of the AWS Global Infrastructure](https://www.infrastructure.aws/)
 - [Regions and Availability Zones](https://aws.amazon.com/about-aws/global-infrastructure/regions_az)
+- [AWS Networking and Content Delivery Blog](https://aws.amazon.com/blogs/networking-and-content-delivery/)
+- [Tools to build on AWS](https://aws.amazon.com/tools/)
+- [AWS Case Studies: Content Delivery](https://aws.amazon.com/solutions/case-studies/?customer-references-cards.sort-by=item.additionalFields.publishedDate&customer-references-cards.sort-order=desc&awsf.customer-references-location=*all&awsf.customer-references-segment=*all&awsf.customer-references-product=product%23vpc%7Cproduct%23api-gateway%7Cproduct%23cloudfront%7Cproduct%23route53%7Cproduct%23directconnect%7Cproduct%23elb&awsf.customer-references-category=category%23content-delivery)
