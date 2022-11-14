@@ -49,7 +49,41 @@ If us-west-1a AZ were to fail, your application would still be running in us-wes
 
 ---
 
-## [Notes](#notes)
+## [Edge Locations](#edge-locations)
+
+**An edge location is a site that *Amazon CloudFront* uses to store cached copies of your content closer to your customers for faster delivery.**
+
+**Caching copies of data closer to the customers all around the world uses the concept of content delivery networks, or CDNs.**
+
+**[Amazon CloudFront](https://aws.amazon.com/cloudfront/) is a service that helps deliver data, video, applications, and APIs to customers around the world with low latency and high transfer speeds.**
+
+Amazon CloudFront uses what are called Edge locations, all around the world, to help accelerate communication with users, no matter where they are. 
+
+AWS Edge locations also run a **domain name service, or DNS,** known as **[Amazon Route 53](https://aws.amazon.com/route53/)**, helping direct customers to the correct web locations with reliably low latency.
+
+**[AWS Outposts](https://aws.amazon.com/outposts/) is a service that you can use to run AWS infrastructure, services, and tools in your own on-premises data center in a hybrid approach.** 
+
+---
+
+### [Edge Locations Example](#edge-locations-example)
+
+![example](images/edge_locations.png "Edge Locations")
+
++ **Origin** Your company's data is stored in Brazil and you have customers in China. You don't need to move all the content to one of the Chinese Regions.
++ **Edge Locations** You can cache a copy locally at an edge location that is close to your customers in China.
++ **Customer** When a customer in China requests one of your files, Amazon CloudFront retrieves the file from the cache in the edge location and delivers the file to the customer.
+
+---
+
+## [AWS Global Infrastructure in a Nutshell](#aws-global-infrastructure-in-a-nutshell)
+
+- Regions are geographically isolated areas.
+- Regions contain Availability Zones, that allow you to run across physically separated buildings, tens of miles of separation, while keeping your application logically unified. Availability Zones help you solve high availability and disaster recovery scenarios.
+- AWS Edge locations run Amazon CloudFront to help get content closer to your customers, no matter where they are in the world.
+
+---
+
+# [Global Infrastructure Notes](#notes)
 
 - Amazon Braket is a quantum computing platform.
 - Latency is the time between when content requested and received.
