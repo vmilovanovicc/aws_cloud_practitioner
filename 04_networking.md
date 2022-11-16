@@ -52,11 +52,34 @@ The private connection that AWS Direct Connect provides helps you to *reduce net
 
 ---
 
+# [Subnets and Network Access Control Lists](#subnets-and-network-access-control-lists)
+
+
+**A subnet is a section of a VPC in which you can group resources based on security or operational needs. Subnets can be public or private.**
+
+![example](images/subnets.png "Subnets")
+
+**Public subnets** contain resources that need to be accessible by the public, such as an online store’s website.
+
+**Private subnets** contain resources that should be accessible only through your private network, such as a database.
+
+When a customer requests data from an application hosted in the AWS Cloud, this request is sent as a packet. **A packet is a unit of data sent over the internet or a network.** 
+
+It enters into a VPC through an internet gateway. Before a packet can enter into a subnet or exit from a subnet, it checks for permissions. 
+
+**The VPC component that checks packet permissions for subnets is a network access control list (ACL).**
+
+---
+
 # [Notes](#notes)
 
 - One VPC might have multiple types of gateways attached for multiple types of resources all residing in the same VPC, just in different subnets. 
 - The virtual private gateway is the component that allows protected internet traffic to enter into the VPC.
 - You work with a Direct Connect partner in your area to establish this connection, because AWS Direct Connect provides a *physical* line that connects your network to your AWS VPC.
+- **By default, the security group does not allow any traffic into the instance at all.**
+- **By default, all outbound traffic is allowed from a security group.**
+- **The key difference between a security group and a network ACL is the security group is stateful**, meaning, it has some kind of a memory when it comes to who to allow in or out, **and the network ACL is stateless**, which remembers nothing and checks every single packet that crosses its border regardless of any circumstances. 
+
 
 ---
 
