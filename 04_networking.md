@@ -52,8 +52,7 @@ The private connection that AWS Direct Connect provides helps you to *reduce net
 
 ---
 
-# [Subnets and Network Access Control Lists](#subnets-and-network-access-control-lists)
-
+# [Subnets](#subnets)
 
 **A subnet is a section of a VPC in which you can group resources based on security or operational needs. Subnets can be public or private.**
 
@@ -63,6 +62,8 @@ The private connection that AWS Direct Connect provides helps you to *reduce net
 
 **Private subnets** contain resources that should be accessible only through your private network, such as a database.
 
+---
+
 When a customer requests data from an application hosted in the AWS Cloud, this request is sent as a packet. **A packet is a unit of data sent over the internet or a network.** 
 
 It enters into a VPC through an internet gateway. Before a packet can enter into a subnet or exit from a subnet, it checks for permissions. 
@@ -70,6 +71,32 @@ It enters into a VPC through an internet gateway. Before a packet can enter into
 **The VPC component that checks packet permissions for subnets is a network access control list (ACL).**
 
 ---
+
+# [Network Access Control Lists](#network-access-control-lists)
+
+**A [network access control list (ACL)](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html) is a virtual firewall that controls inbound and outbound traffic at the subnet level.**
+
+Each AWS account includes a default network ACL.
+
+- **By default, your account’s default network ACL allows all inbound and outbound traffic.**
+
+- **For custom network ACLs, all inbound and outbound traffic is denied until you add rules to specify which traffic to allow.**
+
+- **All network ACLs have an explicit deny rule.**
+
+---
+
+## [Stateless packet filtering](#stateless-packet-filtering)
+
+**Network ACLs perform stateless packet filtering.**
+
+They remember nothing and check packets that cross the subnet border each way: inbound and outbound. 
+
+![example](images/stateless.png "Stateless Packet Filtering Example")
+
+After a packet has entered a subnet, it must have its permissions evaluated for resources within the subnet, such as Amazon EC2 instances. 
+
+**The VPC component that checks packet permissions for an Amazon EC2 instance is a security group.**
 
 # [Notes](#notes)
 
