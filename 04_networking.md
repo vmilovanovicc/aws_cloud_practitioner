@@ -98,15 +98,36 @@ After a packet has entered a subnet, it must have its permissions evaluated for 
 
 **The VPC component that checks packet permissions for an Amazon EC2 instance is a security group.**
 
+---
+
+# [Security Groups](#security-groups)
+
+**A [security group](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html) is a virtual firewall that controls inbound and outbound traffic for an Amazon EC2 instance.**
+
+**By default, a security group denies all inbound traffic and allows all outbound traffic.**
+
+---
+
+## [Stateful packet filtering](#stateful-packet-filtering)
+
+**Security groups perform stateful packet filtering.**
+
+They remember previous decisions made for incoming packets.
+
+![example](images/stateful.png "Stateful Packet Filtering Example")
+
+---
+
 # [Notes](#notes)
 
 - One VPC might have multiple types of gateways attached for multiple types of resources all residing in the same VPC, just in different subnets. 
 - The virtual private gateway is the component that allows protected internet traffic to enter into the VPC.
 - You work with a Direct Connect partner in your area to establish this connection, because AWS Direct Connect provides a *physical* line that connects your network to your AWS VPC.
-- **By default, the security group does not allow any traffic into the instance at all.**
-- **By default, all outbound traffic is allowed from a security group.**
+- If you have multiple Amazon EC2 instances within a subnet, you can associate them with the same security group or use different security groups for each instance. 
+- Both network ACLs and security groups enable you to configure custom rules for the traffic in your VPC. 
 - **The key difference between a security group and a network ACL is the security group is stateful**, meaning, it has some kind of a memory when it comes to who to allow in or out, **and the network ACL is stateless**, which remembers nothing and checks every single packet that crosses its border regardless of any circumstances. 
 
+![example](images/acls_sec_groups.png "ACLs and Security Groups")
 
 ---
 
