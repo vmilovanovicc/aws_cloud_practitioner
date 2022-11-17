@@ -118,6 +118,26 @@ They remember previous decisions made for incoming packets.
 
 ---
 
+# [Domain Name System (DNS)](#domain-name-system-dns)
+
+Route 53 is AWS's domain name service. DNS translates website names into IP, or Internet Protocol addresses. 
+
+**DNS resolution is the process of translating a domain name to an IP address.**
+
+---
+
+### [DNS Resolution Example](#dns-resolution-example)
+
+![example](images/dns.png "DNS Resolution Example")
+
+- When you enter the domain name into your browser, this request is sent to a customer DNS resolver. 
+- The customer DNS resolver asks the company DNS server for the IP address that corresponds to AnyCompany’s website.
+- The company DNS server responds by providing the IP address for AnyCompany’s website, 192.0.2.0.
+
+---
+
+
+
 # [Notes](#notes)
 
 - One VPC might have multiple types of gateways attached for multiple types of resources all residing in the same VPC, just in different subnets. 
@@ -126,6 +146,8 @@ They remember previous decisions made for incoming packets.
 - If you have multiple Amazon EC2 instances within a subnet, you can associate them with the same security group or use different security groups for each instance. 
 - Both network ACLs and security groups enable you to configure custom rules for the traffic in your VPC. 
 - **The key difference between a security group and a network ACL is the security group is stateful**, meaning, it has some kind of a memory when it comes to who to allow in or out, **and the network ACL is stateless**, which remembers nothing and checks every single packet that crosses its border regardless of any circumstances. 
+- A CDN is a network that helps to deliver edge content to users based on their geographic location.
+- Route 53 can direct traffic to different endpoints using several different routing policies, such as latency-based routing, geolocation DNS, geoproximity, and weighted round robin.
 
 ![example](images/acls_sec_groups.png "ACLs and Security Groups")
 
