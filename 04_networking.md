@@ -136,7 +136,31 @@ Route 53 is AWS's domain name service. DNS translates website names into IP, or 
 
 ---
 
+# [Amazon Route 53](#amazon-route-53)
 
+**[Amazon Route 53](https://aws.amazon.com/route53) is a DNS web service.**
+
+* Route end users to internet applications hosted in AWS
+* Connect user requests to infrastructure running in AWS (such as Amazon EC2 instances and load balancers)
+* Manage the DNS records for domain names
+* Register new domain names directly in Route 53
+* Transfer DNS records for existing domain names managed by other domain registrars.
+
+---
+
+### [Route 53 and CloudFront Example](#route-53-and-cloudfront-example)
+
+![example](images/route53_cloudfront.png "How Route 53 and CloudFront deliver content to customers")
+
+Assumption: AnyCompany’s application is running on several Amazon EC2 instances. These instances are in an Auto Scaling group that attaches to an Application Load Balancer. 
+
+How Route 53 and CloudFront deliver content to customers:
+- A customer requests data from the application by going to AnyCompany’s website. 
+- Amazon Route 53 uses DNS resolution to identify AnyCompany.com’s corresponding IP address, 192.0.2.0. This information is sent back to the customer. 
+- The customer’s request is sent to the nearest edge location through Amazon CloudFront. 
+- Amazon CloudFront connects to the Application Load Balancer, which sends the incoming packet to an Amazon EC2 instance.
+
+---
 
 # [Notes](#notes)
 
@@ -154,3 +178,9 @@ Route 53 is AWS's domain name service. DNS translates website names into IP, or 
 ---
 
 # References
+
+- [Networking and Content Delivery on AWS](https://aws.amazon.com/products/networking)
+- [AWS Networking and Content Delivery Blog](https://aws.amazon.com/blogs/networking-and-content-delivery/)
+- [Amazon Virtual Private Cloud](https://aws.amazon.com/vpc)
+- [What is Amazon VPC?](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
+- [How Amazon VPC works](https://docs.aws.amazon.com/vpc/latest/userguide/how-it-works.html)
