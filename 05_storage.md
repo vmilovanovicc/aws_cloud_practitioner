@@ -98,12 +98,30 @@ When selecting an Amazon S3 storage class, consider these two factors:
 
 All objects from this storage class are replicated and stored across at least **three** geographically dispersed Availability Zones.
 
-### Amazon S3 Outposts\
+### Amazon S3 Outposts
 
 - Creates S3 buckets on Amazon S3 Outposts
 - Makes it easier to retrieve, store, and access data on AWS Outposts
 
 **Amazon S3 Outposts delivers object storage to your on-premises AWS Outposts environment.**
+
+---
+
+# [Amazon EFS](#amazon-efs)
+
+EFS is a managed file system. In **file storage**, multiple clients can access data that is stored in shared file folders. 
+
+Compared to block storage and object storage, **file storage is ideal for use cases in which a large number of services and resources need to access the same data at the same time.**
+
+**[Amazon Elastic File System (Amazon EFS)](https://aws.amazon.com/efs/) is a scalable file system used with AWS Cloud services and on-premises resources.**
+
+---
+
+## [EBS vs EFS](#ebs-vs-efs)
+
+Amazon EBS volumes attach to EC2 instances and are an **Availability Zone-level resource.** In order to attach EC2 to EBS, you need to be in the same AZ. **EBS doesn't automatically scale.**
+
+EFS allows you to have multiple instances accessing the data in EFS at the same time. It's a **regional resource** and stores data in and across **multiple AZs**, meaning any EC2 instance in the Region can write to the EFS file system. As you write more data to **EFS, it automatically scales.**
 
 ---
 
@@ -121,6 +139,14 @@ All objects from this storage class are replicated and stored across at least **
 
 - If you are using complete objects or only occasional changes, S3 is the right choice. If you are doing complex read, write, change functions, then use EBS.
 
+- On-premises servers can access EFS using AWS Direct Connect.
+
+
 ---
 
 # References
+
+- [Cloud Storage on AWS](https://aws.amazon.com/products/storage)
+- [AWS Storage Blog](https://aws.amazon.com/blogs/storage/)
+- [Hands-On Tutorials: Storage](https://aws.amazon.com/getting-started/hands-on/?awsf.getting-started-category=category%23storage&awsf.getting-started-content-type=content-type%23hands-on)
+- [AWS Case Studies: Storage](https://aws.amazon.com/solutions/case-studies/?customer-references-cards.sort-by=item.additionalFields.publishedDate&customer-references-cards.sort-order=desc&awsf.customer-references-location=*all&awsf.customer-references-segment=*all&awsf.customer-references-product=product%23vpc%7Cproduct%23api-gateway%7Cproduct%23cloudfront%7Cproduct%23route53%7Cproduct%23directconnect%7Cproduct%23elb&awsf.customer-references-category=category%23storage)
