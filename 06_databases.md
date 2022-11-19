@@ -85,8 +85,51 @@ Scenarion in which you should use DynamoDB:
 
 ---
 
+# [Amazon Redshift](#amazon-redshift)
+
+**[Amazon Redshift](https://aws.amazon.com/redshift) is a data warehousing service that you can use for big data analytics.**
+
+Optimal to use when you are looking at historical analytics as opposed to operational analysis. 
+
+---
+
+# [Amazon Database Migration Service](#amazon-database-migration-service)
+
+**[AWS Database Migration Service (AWS DMS)](https://aws.amazon.com/dms/) enables you to migrate relational databases, nonrelational databases, and other types of data stores.**
+
+With AWS DMS, you move data between a **source** database and a **target** database. 
+
+[The source and target databases](https://aws.amazon.com/dms/resources) can be of the same type or different types. 
+
+**Use cases for AWS DMS:**
+- Development and test database migrations
+- Database consolidation 
+- Continuous replication
+
+Click [here](#notes) for learn more about these use cases.
+
+Migration types:
+
+- **Homogenous migration** - when source and target databases are of the same type.
+- **Heterogeneous migration** - when source and target databases are of different types.
+
+Heterogeneous migration consists of two steps:
+
+- Since the schema structures, data types, and database code are different between source and target, we first need to convert them using the **AWS Schema Conversion Tool.** This will convert the source schema and code to match that of the target database.
+- Use DMS to migrate data from the source database to the target database. 
+---
+
 # [Notes](#notes)
 
+- In cooperation with **Amazon Redshift Spectrum**, you can directly run a single SQL query against exabytes of unstructured data running in data lakes. 
+
+- During the migration, the source database remains operational, minimizing downtime to applications that rely on that database. 
+
+- **Development and test migration** is when you want to develop this to test against production data, but without affecting production users. 
+
+- **Database consolidation** is when you have several databases and want to consolidate them into one central database. 
+
+- **Continuous replication** is when you use DMS to perform continuous data replication. This could be for disaster recovery or because of geographic separation. 
 
 ---
 
