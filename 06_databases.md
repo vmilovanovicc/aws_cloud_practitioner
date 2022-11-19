@@ -117,6 +117,55 @@ Heterogeneous migration consists of two steps:
 
 - Since the schema structures, data types, and database code are different between source and target, we first need to convert them using the **AWS Schema Conversion Tool.** This will convert the source schema and code to match that of the target database.
 - Use DMS to migrate data from the source database to the target database. 
+
+---
+
+# [Amazon DocumentDB](#amazon-documentdb)
+
+**[Amazon DocumentDB](https://aws.amazon.com/documentdb) is a document database service that supports MongoDB workloads.**
+
+Amazon DocumentDB is great for content management, catalogs, user profiles. 
+
+---
+
+# [Amazon Neptune](#amazon-neptune)
+
+**[Amazon Neptune](https://aws.amazon.com/neptune) is a graph database service.** 
+
+You can use Amazon Neptune to build and run applications that work with highly connected datasets, such as recommendation engines, fraud detection, and knowledge graphs.
+
+---
+
+# [Amazon QLDB](#amazon-qldb)
+
+**[Amazon Quantum Ledger Database (Amazon QLDB)](https://aws.amazon.com/qldb) is a ledger database service.**
+
+You can use Amazon QLDB to review a complete history of all the changes that have been made to your application data.
+
+---
+
+# [Amazon Managed Blockchain](#amazon-managed-blockchain)
+
+**[Amazon Managed Blockchain](https://aws.amazon.com/managed-blockchain) is a service that you can use to create and manage blockchain networks with open-source frameworks.**
+
+**Blockchain** is a distributed ledger system that lets multiple parties run transactions and share data without a central authority.
+
+---
+
+# [Amazon ElastiCache](#amazon-elasticache)
+
+**[Amazon ElastiCache](https://aws.amazon.com/elasticache) is a service that adds caching layers on top of your databases to help improve the read times of common requests.** 
+
+It supports two types of data stores: Redis and Memcached.
+
+---
+
+# [Amazon DynamoDB Accelerator](#amazon-dynamodb-accelerator)
+
+**[Amazon DynamoDB Accelerator (DAX)](https://aws.amazon.com/dynamodb/dax/) is an in-memory cache for DynamoDB.** 
+
+It helps improve response times from single-digit milliseconds to microseconds.
+
 ---
 
 # [Notes](#notes)
@@ -131,6 +180,18 @@ Heterogeneous migration consists of two steps:
 
 - **Continuous replication** is when you use DMS to perform continuous data replication. This could be for disaster recovery or because of geographic separation. 
 
+- MongoDB is a document database program.
+
+- Amazon QLDB, or Quantum Ledger Database: an immutable system of record where any entry can never be removed from the audits. 
+
+- DAX, the DynamoDB Accelerator, is a native caching layer designed to dramatically improve read times for nonrelational data. 
+
 ---
 
 # References
+
+- [AWS Database Migration Service](https://aws.amazon.com/dms/)
+- [Databases on AWS](https://aws.amazon.com/products/databases)
+- [Category Deep Dive: Databases](https://aws.amazon.com/getting-started/deep-dive-databases/)
+- [AWS Database Blog](https://aws.amazon.com/blogs/database/)
+- [AWS Case Studies: Databases](https://aws.amazon.com/solutions/case-studies/?customer-references-cards.sort-by=item.additionalFields.publishedDate&customer-references-cards.sort-order=desc&awsf.customer-references-location=*all&awsf.customer-references-segment=*all&awsf.customer-references-product=product%23vpc%7Cproduct%23api-gateway%7Cproduct%23cloudfront%7Cproduct%23route53%7Cproduct%23directconnect%7Cproduct%23elb&awsf.customer-references-category=category%23databases)
