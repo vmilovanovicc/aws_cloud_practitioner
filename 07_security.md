@@ -39,15 +39,46 @@ Use cases:
 
 ---
 
+## [IAM users](#iam-users)
+
+**An IAM user is an identity that you create in AWS.** It represents the person or application that interacts with AWS services and resources. It consists of a name and credentials.
+
+By default, when you create a new IAM user in AWS, it has no permissions associated with it. 
+
+---
+
+## [IAM policies](#iam-policies)
+
+**An IAM policy is a document that allows or denies permissions to AWS services and resources.**  
+
+Follow the security principle of **least privilege** when granting permissions. By following this principle, you help to prevent users or roles from having more permissions than needed to perform their tasks.
+
+Instead of assigning permissions to each individual IAM user, place the users into an IAM group.
+
+---
+
+## [IAM groups](#iam-groups)
+ 
+**An [IAM group](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_groups.html) is a collection of IAM users.**
+ 
+When you assign an IAM policy to a group, all users in the group are granted permissions specified by the policy.
+
+---
+
+## [IAM roles](#iam-roles)
+
+**An IAM role is an identity that you can assume to gain temporary access to permissions.**
+
+When someone assumes an IAM role, they abandon all previous permissions that they had under a previous role and assume the permissions of the new role. 
+
+---
+
 # [Notes](#notes)
 
-- When you create an IAM user, by default, it has no permissions.
-- You give people access only to what they need and nothing else. This idea is called the least privilege principle. 
-- The way that you grant or deny permission is to associate what is called an IAM policy to an IAM user. An IAM policy is a JSON document that describes what API calls a user can or cannot make. 
-- One way to make it easier to manage your users and their permissions is to organize them into IAM groups.
-- You can attach a policy to a group and all of the users in that group will have those permissions.
+- An IAM policy is a JSON document that describes what API calls a user can or cannot make. 
 - Roles have associated permissions that allow or deny specific actions.
-- You use roles to temporarily grant access to AWS resources, to users, external identities, applications, and even other AWS services. When an identity assumes a role, it abandons all of the previous permissions that it has and it assumes the permissions of that role.
+- Before an IAM user, application, or service can assume an IAM role, they must be granted permissions to switch to the role.
+
 
 ---
 
