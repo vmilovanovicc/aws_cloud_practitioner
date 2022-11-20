@@ -78,8 +78,11 @@ When someone assumes an IAM role, they abandon all previous permissions that the
 - An IAM policy is a JSON document that describes what API calls a user can or cannot make. 
 - Roles have associated permissions that allow or deny specific actions.
 - Before an IAM user, application, or service can assume an IAM role, they must be granted permissions to switch to the role.
-
+- In IAM, multi-factor authentication (MFA) provides an extra layer of security for your AWS account.
+- AWS MFA device. This device could be a hardware security key, a hardware device, or an MFA application on a device such as a smartphone.
 
 ---
 
 # References
+
+- [Multi-factor Authentication](https://aws.amazon.com/iam/features/mfa/)
