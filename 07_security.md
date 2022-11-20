@@ -79,9 +79,13 @@ When someone assumes an IAM role, they abandon all previous permissions that the
 
 When you create an organization, AWS Organizations automatically creates a **root**, which is the parent container for all the accounts in your organization. 
 
-**In AWS Organizations, you can centrally control permissions for the accounts in your organization by using [service control policies (SCPs)](https://aws.amazon.com/organizations).** 
+**In AWS Organizations, you can centrally control permissions for the accounts in your organization by using [service control policies (SCPs)](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html).** 
 
 **SCPs enable you to place restrictions on the AWS services, resources, and individual API actions that users and roles in each account can access.**
+
+**SCPs** can be applied to:
+- an individual member account
+- an organizational unit (OU)
 
 Features:
 - centralized management of all your AWS accounts
@@ -112,3 +116,4 @@ When you apply a policy to an OU, all the accounts in the OU automatically inher
 # References
 
 - [Multi-factor Authentication](https://aws.amazon.com/iam/features/mfa/)
+- [Attaching SCPs](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_attach.html)
