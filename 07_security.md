@@ -73,6 +73,32 @@ When someone assumes an IAM role, they abandon all previous permissions that the
 
 ---
 
+# [AWS Organizations](#aws-organizations)
+
+**You can use [AWS Organizations](https://aws.amazon.com/organizations) to consolidate and manage multiple AWS accounts within a central location.**
+
+When you create an organization, AWS Organizations automatically creates a **root**, which is the parent container for all the accounts in your organization. 
+
+**In AWS Organizations, you can centrally control permissions for the accounts in your organization by using [service control policies (SCPs)](https://aws.amazon.com/organizations).** 
+
+**SCPs enable you to place restrictions on the AWS services, resources, and individual API actions that users and roles in each account can access.**
+
+Features:
+- centralized management of all your AWS accounts
+- consolidated billing 
+- implement hierarchical groupings of your accounts to meet security, compliance, or budgetary needs (group accounts into organizational units)
+- have control over the AWS services and API actions that each account can access as an administrator of the primary account of an organization (SCPs).
+
+---
+
+## [Organizational units](#organizational-units)
+
+**In AWS Organizations, you can group accounts into organizational units (OUs) to make it easier to manage accounts with similar business or security requirements.** 
+
+When you apply a policy to an OU, all the accounts in the OU automatically inherit the permissions specified in the policy.  
+
+---
+
 # [Notes](#notes)
 
 - An IAM policy is a JSON document that describes what API calls a user can or cannot make. 
