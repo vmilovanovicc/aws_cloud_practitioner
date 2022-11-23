@@ -103,6 +103,22 @@ When you apply a policy to an OU, all the accounts in the OU automatically inher
 
 ---
 
+## [Example: How to use AWS Organizations](#example-how-to-use-aws-organizations)
+
+![example](images/aws_org_1.png "AWS Organizations Example")
+
+A company has separate AWS accounts for the finance, information technology (IT), human resources (HR), and legal departments. You decide to consolidate these accounts into a single organization so that you can administer them from a central location. When you create the organization, this establishes the root.
+
+![example](images/aws_org_2.png "AWS Organizations Example")
+
+The finance and IT departments have requirements that do not overlap with those of any other department. You bring these accounts into your organization to take advantage of benefits such as consolidated billing, but you do not place them into any OUs.
+
+![example](images/aws_org_1.png "AWS Organizations Example")
+
+The HR and legal departments need to access the same AWS services and resources, so you place them into an OU together. Placing them into an OU enables you to attach policies that apply to both the HR and legal departments’ AWS accounts.
+
+---
+
 # [Notes](#notes)
 
 - An IAM policy is a JSON document that describes what API calls a user can or cannot make. 
