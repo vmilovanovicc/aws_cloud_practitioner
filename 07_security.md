@@ -119,6 +119,33 @@ The HR and legal departments need to access the same AWS services and resources,
 
 ---
 
+# [Compliance](#compliance)
+
+## [AWS Artifact](#aws-artifact)
+
+**[AWS Artifact](https://aws.amazon.com/artifact) is a service that provides on-demand access to AWS security and compliance reports and select online agreements.**
+
+AWS Artifact consists of two main sections: 
+- **AWS Artifact Agreements** and 
+- **AWS Artifact Reports**.
+
+In **AWS Artifact Agreements**, you can review, accept, and manage agreements for an individual account and for all your accounts in AWS Organizations. 
+
+**AWS Artifact Reports** provide compliance reports from third-party auditors. 
+
+---
+
+## [Customer Compliance Center](#customer-compliance-center)
+
+**The [Customer Compliance Center](https://aws.amazon.com/compliance/customer-center/) contains resources to help you learn more about AWS compliance.**
+
+What can you find here?
+- AWS answers to key compliance questions
+- An overview of AWS risk and compliance
+- An auditing security checklist.
+
+---
+
 # [Notes](#notes)
 
 - An IAM policy is a JSON document that describes what API calls a user can or cannot make. 
@@ -126,6 +153,9 @@ The HR and legal departments need to access the same AWS services and resources,
 - Before an IAM user, application, or service can assume an IAM role, they must be granted permissions to switch to the role.
 - In IAM, multi-factor authentication (MFA) provides an extra layer of security for your AWS account.
 - AWS MFA device. This device could be a hardware security key, a hardware device, or an MFA application on a device such as a smartphone.
+- Suppose that your company needs to sign an agreement with AWS regarding your use of certain types of information throughout AWS services. You can do this through AWS Artifact Agreements. 
+- Suppose that a member of your company’s development team is building an application and needs more information about their responsibility for complying with certain regulatory standards. You can advise them to access this information in AWS Artifact Reports.
+- AWS Compliance Center can be used to find compliance information all in one place. It will show you compliance enabling services as well as documentation like the AWS Risk and Security Whitepaper, which you should read to ensure that you understand security and compliance with AWS. 
 
 ---
 
