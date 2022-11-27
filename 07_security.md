@@ -146,6 +146,40 @@ What can you find here?
 
 ---
 
+# [Denial-of-Service Attacks](#denial-of-service-attacks)
+
+**A denial-of-service (DoS) attack is a deliberate attempt to make a website or application unavailable to users.**
+
+![example](images/dos.png "Denial of service")
+
+**In a distributed denial-of-service (DDoS) attack, multiple sources are used to start an attack that aims to make a website or application unavailable.**
+
+The single attacker can use multiple infected computers (also known as “bots”) to send excessive traffic to a website or application.
+
+![example](images/distributed_dos.png "Distributed Denial of service")
+
+---
+
+# [AWS Shield](#aws-shield)
+
+To help minimize the effect of DoS and DDoS attacks on your applications, you can use [AWS Shield](https://aws.amazon.com/shield).
+
+**AWS Shield is a service that protects applications against DDoS attacks.**
+
+AWS Shield provides two levels of protection: 
+- Standard 
+- Advanced.
+
+**AWS Shield Standard automatically protects all AWS customers at no cost.** It protects your AWS resources from the most common, frequently occurring types of DDoS attacks.
+
+**AWS Shield Advanced is a paid service that provides detailed attack diagnostics and the ability to detect and mitigate sophisticated DDoS attacks.** 
+
+It also integrates with other services such as Amazon CloudFront, Amazon Route 53, and Elastic Load Balancing. 
+
+Additionally, you can integrate AWS Shield with AWS WAF by writing custom rules to mitigate complex DDoS attacks.
+
+---
+
 # [Notes](#notes)
 
 - An IAM policy is a JSON document that describes what API calls a user can or cannot make. 
@@ -156,6 +190,10 @@ What can you find here?
 - Suppose that your company needs to sign an agreement with AWS regarding your use of certain types of information throughout AWS services. You can do this through AWS Artifact Agreements. 
 - Suppose that a member of your company’s development team is building an application and needs more information about their responsibility for complying with certain regulatory standards. You can advise them to access this information in AWS Artifact Reports.
 - AWS Compliance Center can be used to find compliance information all in one place. It will show you compliance enabling services as well as documentation like the AWS Risk and Security Whitepaper, which you should read to ensure that you understand security and compliance with AWS. 
+- The objective of a DDoS attack is to shut down your application's ability to function by overwhelming the system to the point it can no longer operate. 
+- The low level network attacks like the UDP floods. Solution, security groups. 
+-  Slowloris attacks? Elastic load balancer (runs on Region level)
+-  AWS WAF uses a web application firewall to filter incoming traffic for the signatures of bad actors. 
 
 ---
 
