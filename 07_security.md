@@ -180,6 +180,50 @@ Additionally, you can integrate AWS Shield with AWS WAF by writing custom rules 
 
 ---
 
+# [AWS KMS](#aws-kms)
+
+You must ensure that your applications’ data is secure while in storage **(encryption at rest)** and while it is transmitted, known as **encryption in transit.**
+
+**[AWS Key Management Service (AWS KMS)](https://aws.amazon.com/kms) enables you to perform encryption operations through the use of cryptographic keys.**
+
+A cryptographic key is a random string of digits used for locking (encrypting) and unlocking (decrypting) data. 
+
+---
+
+# [AWS WAF](#aws-waf)
+
+**[AWS WAF](https://aws.amazon.com/waf) is a web application firewall that lets you monitor network requests that come into your web applications.**
+
+It does this by using a [web access control list (ACL)](https://docs.aws.amazon.com/waf/latest/developerguide/web-acl.html) to protect your AWS resources. 
+
+AWS WAF works together with Amazon CloudFront and an Application Load Balancer.
+
+---
+
+# [Amazon Inspector](#amazon-inspector)
+
+**[Amazon Inspector](https://aws.amazon.com/inspector/) helps to improve security, and compliance of your AWS deployed applications by running an automated security assessment against your infrastructure.**
+
+The service consists of three parts:
+*  a network configuration reachability piece, 
+* an Amazon agent, which can be installed an EC2 instances, and 
+* a security assessment service that brings them all together. 
+
+---
+
+
+# [Amazon GuardDuty](#amazon-guardduty)
+
+**[Amazon GuardDuty](https://aws.amazon.com/guardduty) is a service that provides intelligent threat detection for your AWS infrastructure and resources.**
+
+It identifies threats by continuously monitoring the network activity and account behavior within your AWS environment.
+
+![example](images/guardduty.png "Amazon GuardDuty - How it works")
+
+It analyzes continuous streams of metadata generated from your account, and network activity found on AWS CloudTrail events, Amazon VPC Flow Logs, and DNS logs. 
+
+---
+
 # [Notes](#notes)
 
 - An IAM policy is a JSON document that describes what API calls a user can or cannot make. 
@@ -194,6 +238,9 @@ Additionally, you can integrate AWS Shield with AWS WAF by writing custom rules 
 - The low level network attacks like the UDP floods. Solution, security groups. 
 -  Slowloris attacks? Elastic load balancer (runs on Region level)
 -  AWS WAF uses a web application firewall to filter incoming traffic for the signatures of bad actors. 
+- Server-side encryption at rest is enabled on all DynamoDB table data. DynamoDB's encryption at rest also integrates with AWS KMS. 
+- When a request comes into AWS WAF, it checks against the list of rules that you have configured in the web ACL. If a request did not come from one of the blocked IP addresses, it allows access to the application.
+- The service consists of three parts a network configuration reachability piece, an Amazon agent, which can be installed an EC2 instances, and a security assessment service that brings them all together. 
 
 ---
 
@@ -201,3 +248,12 @@ Additionally, you can integrate AWS Shield with AWS WAF by writing custom rules 
 
 - [Multi-factor Authentication](https://aws.amazon.com/iam/features/mfa/)
 - [Attaching SCPs](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps_attach.html)
+- [AWS IAM: Policies and Permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html)
+- [IAM roles](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html)
+- [Security Best Practices in IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
+- [AWS Shield](https://aws.amazon.com/shield/)
+- [Security, Identity, and Compliance on AWS](https://aws.amazon.com/products/security)
+- [Introduction to AWS Security](https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/welcome.html) (*whitepaper*)
+- [AWS - Overview of Security Processes](https://docs.aws.amazon.com/whitepapers/latest/aws-overview-security-processes/aws-overview-security-processes.pdf) (*whitepaper*)
+- [AWS Security Blog](https://aws.amazon.com/blogs/security/)
+- [Case Study: Security, Identity, and Compliance](https://aws.amazon.com/blogs/security/)
