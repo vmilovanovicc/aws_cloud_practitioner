@@ -227,6 +227,14 @@ The TAM is your primary point of contact at AWS.
 
 ---
 
+# [AWS Marketplace](#aws-marketplace)
+
+**[AWS Marketplace](https://aws.amazon.com/marketplace) is a digital catalog that includes thousands of software listings from independent software vendors.** AWS Marketplace offers products in several categories.
+
+![example](images/aws_marketplace.png "AWS Marketplace Categories")
+
+---
+
 # [Notes](#notes)
 
 - S3 us free for 12 months for up to five gigs of storage.
@@ -242,8 +250,14 @@ The TAM is your primary point of contact at AWS.
 
 # References
 
+- [Introduction to AWS Economics](https://d1.awsstatic.com/whitepapers/introduction-to-aws-cloud-economics-final.pdf) *whitepaper*
+- [AWS Pricing](https://aws.amazon.com/pricing)
+- [How AWS Pricing Works](https://d1.awsstatic.com/whitepapers/aws_pricing_overview.pdf) *whitepaper*
+- [AWS Free Tier](https://aws.amazon.com/free)
 - [AWS S3 Pricing](https://aws.amazon.com/s3/pricing/)
 - [AWS EC2 Pricing](https://aws.amazon.com/ec2/pricing/)
 - [AWS Lambda Pricing](https://aws.amazon.com/lambda/pricing/)
 - [AWS Support](https://aws.amazon.com/premiumsupport/plans/)
+- [AWS Cost Management](https://aws.amazon.com/aws-cost-management/)
 - [Compare AWS Support Plans](https://aws.amazon.com/premiumsupport/plans/)
+- [AWS Knowledge Center](https://aws.amazon.com/premiumsupport/knowledge-center/)
