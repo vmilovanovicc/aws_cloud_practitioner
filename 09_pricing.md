@@ -118,13 +118,42 @@ For each Region, charges are based on the following factors:
 
 ---
 
+# [Billing Dashboards](#billing-dashboards)
+
+**Use the [AWS Billing & Cost Management dashboard](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html) to pay your AWS bill, monitor your usage, and analyze and control your costs.**
+
+And more:
+
+- Compare your current month-to-date balance with the previous month, and get a forecast of the next month based on current usage.
+- View month-to-date spend by service.
+- View Free Tier usage by service.
+- Access Cost Explorer and create budgets.
+- Purchase and manage Savings Plans.
+- Publish [AWS Cost and Usage Reports](https://docs.aws.amazon.com/cur/latest/userguide/what-is-cur.html).
+
+---
+
+# [Consolidated Billing](#consolidated-billing)
+
+**The [consolidated billing](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html) feature of AWS Organizations enables you to receive a single bill for all AWS accounts in your organization.**
+
+**The default maximum number of accounts allowed for an organization is 4**, but you can contact AWS Support to increase your quota, if needed.
+
+A **benefit** of consolidated billing is the ability to **share bulk discount pricing, Savings Plans, and Reserved Instances** across the accounts in your organization. 
+
+---
+
+---
+
 # [Notes](#notes)
 
 - S3 us free for 12 months for up to five gigs of storage.
 - Amazon Lightsail is a service that enables you to run virtual private servers.
 - **Pay less when you reserve** *Example*: suppose that your company is using Amazon EC2 instances for a workload that needs to run continuously. You might choose to run this workload on Amazon EC2 Instance Savings Plans, because the plan allows you to save up to 72% over the equivalent On-Demand Instance capacity.
 - **Pay less with volume-based discounts when you use more** *Example*:  The more Amazon S3 storage space you use, the less you pay for it per GB.
-
+- AWS Organizations is a service that enables you to manage multiple AWS accounts from a central location. AWS Organizations also provides the option for consolidated billing. 
+- Consolidated billing  enables you to share volume pricing discounts across accounts. 
+- In Amazon S3, after customers have transferred 10 TB of data in a month, they pay a lower per-GB transfer price for the next 40 TB of data transferred. 
 
 ---
 
