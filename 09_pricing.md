@@ -143,6 +143,26 @@ A **benefit** of consolidated billing is the ability to **share bulk discount pr
 
 ---
 
+# [AWS Budgets](#aws-budgets)
+
+**In [AWS Budgets](https://aws.amazon.com/aws-cost-management/aws-budgets), you can create budgets to plan your service usage, service costs, and instance reservations.**
+
+The information in AWS Budgets updates three times a day. 
+
+In AWS Budgets, you can also set custom alerts when your usage exceeds (or is forecasted to exceed) the budgeted amount.
+
+![example](images/aws_budgets.png "AWS Budgets Example")
+
+---
+
+# [AWS Cost Explorer](#aws-cost-explorer)
+
+**[AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/) is a tool that enables you to visualize, understand, and manage your AWS costs and usage over time.**
+
+AWS Cost Explorer includes a default report of the costs and usage for your top five cost-accruing AWS services and it gives you 12 months of historical data, so you can track your spending over time.
+
+![example](images/aws_cost_explorer.png "AWS Cost Explorer Example")
+
 ---
 
 # [Notes](#notes)
