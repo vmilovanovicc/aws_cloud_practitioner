@@ -51,6 +51,51 @@ Cost optimization includes adopting a consumption model, analyzing and attributi
 
 ---
 
+# [Benefits of the AWS Cloud](#benefits-of-the-aws-cloud)
+
+### Trade upfront expense for variable expense
+
+Upfront expenses include data centers, physical servers, and other resources that you would need to invest in before using computing resources. 
+
+Instead of investing heavily in data centers and servers before you know how you’re going to use them, you can pay only when you consume computing resources.
+
+### Benefit from massive economies of scale
+
+By using cloud computing, you can achieve a lower variable cost than you can get on your own because usage from hundreds of thousands of customers aggregates in the cloud.
+
+### Stop guessing capacity
+
+With cloud computing, you don’t have to predict how much infrastructure capacity you will need before deploying an application. 
+
+### Increase speed and agility
+
+The flexibility of cloud computing makes it easier for you to develop and deploy applications.
+
+### Stop spending money running and maintaining data centers
+
+Cloud computing in data centers often requires you to spend more money and time managing infrastructure and servers. 
+
+### Go global in minutes.
+
+The AWS Cloud global footprint enables you to quickly deploy applications to customers around the world, while providing them with low latency.
+
+---
+
 # [Notes](#notes)
 
 - In December 2021, AWS introduced a sustainability pillar as part of the AWS Well-Architected Framework.
+- The Cost Optimization pillar focuses on the ability to run systems to deliver business value at the lowest price point.
+- The Performance Efficiency pillar focuses on using computing resources efficiently to meet system requirements and to maintain that efficiency as demand changes and technologies evolve.
+- The Reliability pillar focuses on the ability of a workload to consistently and correctly perform its intended functions.
+- Operational Excellence includes the ability to run workloads effectively and gain insights into their operations.
+- 
+
+---
+
+# References
+
+- [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/)
+- [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
+- [AWS Architecture Center](https://aws.amazon.com/architecture)
+- [Six Advantages of Cloud Computing](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)
+- [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture)
