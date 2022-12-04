@@ -10,12 +10,36 @@ CloudWatch uses [metrics](https://docs.aws.amazon.com/AmazonCloudWatch/latest/mo
 
 **The CloudWatch [dashboard](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Dashboards.html) feature enables you to access all the metrics for your resources from a single location.**
 
-![example](images/cloudwatch_dashboard "Amazon CloudWatch Dashboard")
+![example](images/cloudwatch_dashboard.png "Amazon CloudWatch Dashboard")
 
+---
+
+# [AWS CloudTrail](#aws-cloudtrail)
+
+**[AWS CloudTrail](https://aws.amazon.com/cloudtrail/) records API calls for your account.** 
+
+The recorded information includes the identity of the API caller, the time of the API call, the source IP address of the API caller, and more. With CloudTrail, you can view a complete history of user activity and API calls for your applications and resources. 
+
+Events are typically updated in CloudTrail within 15 minutes after an API call. 
+
+*Example: A new user was created. Apply a filter to display only the events for the “CreateUser” API action in IAM*
+![example](images/cloudtrail_example.png "AWS CloudTrail Event Example")
+
+---
+
+## [CloudTrail Insights](#cloudtrail-insights)
+
+Within CloudTrail, you can also enable [CloudTrail Insights](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/logging-insights-events-with-cloudtrail.html). 
+
+**This optional feature allows CloudTrail to automatically detect unusual API activities in your AWS account.** 
+
+*For example, CloudTrail Insights might detect that a higher number of Amazon EC2 instances than usual have recently launched in your account.*
 
 ---
 
 # Notes
+
+- CloudWatch alarms are integrated with SNS.
 
 ---
 
