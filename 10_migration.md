@@ -145,7 +145,32 @@ You can transfer up to **100 petabytes of data per Snowmobile**.
 
 # [Innovation with AWS](#innovation-with-aws)
 
+You are properly equipped to drive innovation in the cloud if you can clearly articulate the following conditions: 
+- The current state
+- The desired state
+- The problems you are trying to solve.
 
+Some of the paths you might explore:
+
+1. **Serverless applications**
+
+**With AWS, serverless refers to applications that don’t require you to provision, maintain, or administer servers.** You don’t need to worry about fault tolerance or availability. 
+
+Example: AWS Lambda
+
+2. **Artificial Intelligence**
+
+AWS offers a variety of services powered by artificial intelligence (AI). 
+
+* Convert speech to text with **Amazon Transcribe**
+* Discover patterns in text with **Amazon Comprehend**
+* Identify potentially fraudulent online activities with **Amazon Fraud Detector**
+* Build voice and text chatbots with **Amazon Lex**
+
+3. **Machine Learning**
+You can use ML to analyze data, solve complex problems, and predict outcomes before they happen.
+
+AWS offers **Amazon SageMaker** to remove the difficult work from the process and empower you to build, train, and deploy ML models quickly.
 
 ---
 
@@ -158,9 +183,19 @@ You can transfer up to **100 petabytes of data per Snowmobile**.
 - Common roles in the Security Perspective include: Chief Information Security Officer (CISO), IT security managers, IT security analysts.
 - Common roles in the Operations Perspective include: IT operations managers, IT support managers.
 - Edge computing options are Amazon EC2 instances and AWS IoT Greengrass.
+- Amazon Textract is a machine learning service that automatically extracts text and data from scanned documents.
+- AWS DeepRacer is an autonomous 1/18 scale race car that you can use to test reinforcement learning models.
+- The same VMware based infrastructure that you use on prem can be lifted up and dropped onto AWS via VMware Cloud on AWS. 
 
 ---
 
 # References
 - [An Overview of the AWS Cloud Adoption Framework](https://d1.awsstatic.com/whitepapers/aws_cloud_adoption_framework.pdf) *whitepaper*
 - [6 Strategies for Migrating Applications to the Cloud](https://aws.amazon.com/blogs/enterprise-strategy/6-strategies-for-migrating-applications-to-the-cloud/)
+- [Migration and Transfer on AWS](https://aws.amazon.com/products/migration-and-transfer)
+- [A Process for Mass Migrations to the Cloud](https://aws.amazon.com/blogs/enterprise-strategy/214-2/)
+- [AWS CAF](https://aws.amazon.com/professional-services/CAF/)
+- [AWS Fundamentals: Core Concepts](https://aws.amazon.com/getting-started/fundamentals-core-concepts/)
+- [AWS Cloud Enterprise Strategy Blog](https://aws.amazon.com/blogs/enterprise-strategy/)
+- [Modernizing with AWS Blog](https://aws.amazon.com/blogs/modernizing-with-aws/)
+- [Case Study: Data Center Migration](https://aws.amazon.com/solutions/case-studies/?customer-references-cards.sort-by=item.additionalFields.publishedDate&customer-references-cards.sort-order=desc&awsf.customer-references-location=*all&awsf.customer-references-segment=*all&awsf.customer-references-product=product%23vpc%7Cproduct%23api-gateway%7Cproduct%23cloudfront%7Cproduct%23route53%7Cproduct%23directconnect%7Cproduct%23elb&awsf.customer-references-category=category%23datacenter-migration)
