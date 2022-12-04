@@ -89,6 +89,50 @@ When migrating applications to the cloud, six of the most common [migration stra
 
 ---
 
+# [AWS Snow Family](#aws-snow-family)
+
+**The [AWS Snow Family](https://aws.amazon.com/snow) is a collection of physical devices that help to physically transport up to exabytes of data into and out of AWS.** 
+
+AWS Snow Family is composed of:
+- AWS Snowcone, 
+- AWS Snowball, and 
+- AWS Snowmobile. 
+
+![example](images/aws_snow_family.png "AWS Snow Family")
+
+---
+
+## [AWS Snowcone](#aws-snowcone)
+
+**[AWS Snowcone](https://aws.amazon.com/snowcone) is a small, rugged, and secure edge computing and data transfer device.** 
+
+It features 2 CPUs, 4 GB of memory, and 8 TB of usable storage.
+
+---
+
+## [AWS Snowball](#aws-snowball)
+
+**[AWS Snowball](https://aws.amazon.com/snowball/)** offers two types of devices:
+
+1. **Snowball Edge Storage Optimized** devices are well suited for large-scale data migrations and recurring transfer workflows.
+
+2. **Snowball Edge Compute Optimized** provides powerful computing resources for use cases such as machine learning, full motion video analysis, analytics, and local computing stacks. 
+
+| Device | Storage | Compute |
+| ------ | -------- | ------- |
+|Snowball Edge Storage Optimized| 80 TB HDD | 40 vCPUs, 80 GiB of memory |
+|Snowball Edge Compute Optimized| 42 TB HDD | 52 vCPUs, 208 GiB of memory |
+
+---
+
+## [AWS Snowmobile](#aws-snowmobile)
+
+**[AWS Snowmobile](https://aws.amazon.com/snowmobile) is an exabyte-scale data transfer service used to move large amounts of data to AWS.** 
+
+You can transfer up to **100 petabytes of data per Snowmobile**.
+
+---
+
 # [Notes](#notes)
 
 - Common roles in the Business Perspective include: Business managers, Finance managers, Budget owners, Strategy stakeholders.
