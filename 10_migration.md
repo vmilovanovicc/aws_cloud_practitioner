@@ -133,6 +133,22 @@ You can transfer up to **100 petabytes of data per Snowmobile**.
 
 ---
 
+## [AWS Snow Family Use Cases](#aws-snow-family-use-cases)
+
+* **AWS Snowcone** - Customers usually use these devices to ship terabytes of information such as analytics data, video libraries, image collections, backups, and even tape replacement data.
+
+* **AWS Snowball** - The use cases include capturing of streams from IoT devices, image compression, video transcoding, and even industrial signaling. 
+
+* **AWS Snowmobile** - It's ideal for the largest migrations and even data center shutdowns. 
+
+---
+
+# [Innovation with AWS](#innovation-with-aws)
+
+
+
+---
+
 # [Notes](#notes)
 
 - Common roles in the Business Perspective include: Business managers, Finance managers, Budget owners, Strategy stakeholders.
@@ -141,6 +157,7 @@ You can transfer up to **100 petabytes of data per Snowmobile**.
 - Common roles in the Platform Perspective include: Chief Technology Officer (CTO), IT managers, Solutions architects.
 - Common roles in the Security Perspective include: Chief Information Security Officer (CISO), IT security managers, IT security analysts.
 - Common roles in the Operations Perspective include: IT operations managers, IT support managers.
+- Edge computing options are Amazon EC2 instances and AWS IoT Greengrass.
 
 ---
 
