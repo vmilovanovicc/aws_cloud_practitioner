@@ -58,6 +58,37 @@ The Operations Perspective helps you to enable, run, use, operate, and recover I
 
 ---
 
+# [Migration Strategies](#migration-strategies)
+
+When migrating applications to the cloud, six of the most common [migration strategies](https://aws.amazon.com/blogs/enterprise-strategy/6-strategies-for-migrating-applications-to-the-cloud/) that you can implement are:
+
+### [Rehosting](#rehosting)
+
+**Rehosting also known as “lift-and-shift” involves moving applications without changes.** 
+
+### [Replatforming](#replatforming)
+
+**Replatforming, also known as “lift, tinker, and shift,” involves making a few cloud optimizations to realize a tangible benefit.** Optimization is achieved without changing the core architecture of the application.
+
+### [Refactoring/re-architecting](#refactoringre-architecting)
+
+**Refactoring (also known as re-architecting) involves reimagining how an application is architected and developed by using cloud-native features.** Now, you're writing new code.
+
+
+### [Repurchasing](#repurchasing)
+
+**Repurchasing involves moving from a traditional license to a software-as-a-service model.** This is common for companies looking to abandon legacy software vendors. Repurchasing involves replacing an existing application with a cloud-based version
+
+### [Retaining](#retaining)
+
+**Retaining consists of keeping applications that are critical for the business in the source environment.** This might include applications that require major refactoring before they can be migrated, or, work that can be postponed until a later time.
+
+### [Retiring](#retiring)
+
+**Retiring is the process of removing applications that are no longer needed.**
+
+---
+
 # [Notes](#notes)
 
 - Common roles in the Business Perspective include: Business managers, Finance managers, Budget owners, Strategy stakeholders.
@@ -71,3 +102,4 @@ The Operations Perspective helps you to enable, run, use, operate, and recover I
 
 # References
 - [An Overview of the AWS Cloud Adoption Framework](https://d1.awsstatic.com/whitepapers/aws_cloud_adoption_framework.pdf) *whitepaper*
+- [6 Strategies for Migrating Applications to the Cloud](https://aws.amazon.com/blogs/enterprise-strategy/6-strategies-for-migrating-applications-to-the-cloud/)
