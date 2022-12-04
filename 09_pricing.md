@@ -246,6 +246,7 @@ The TAM is your primary point of contact at AWS.
 - In Amazon S3, after customers have transferred 10 TB of data in a month, they pay a lower per-GB transfer price for the next 40 TB of data transferred. 
 - Developer, Business, Enterprise On-Ramp, and Enterprise Support - *These Support plans have pay-by-the-month pricing and require no long-term contracts.*
 - Only the Business, Enterprise On-Ramp, and Enterprise Support plans include all AWS Trusted Advisor checks. Of these three Support plans, the Business Support plan has a lower cost.
+
 ---
 
 # References
