@@ -53,29 +53,29 @@ Cost optimization includes adopting a consumption model, analyzing and attributi
 
 # [Benefits of the AWS Cloud](#benefits-of-the-aws-cloud)
 
-### Trade upfront expense for variable expense
+## Trade upfront expense for variable expense
 
 Upfront expenses include data centers, physical servers, and other resources that you would need to invest in before using computing resources. 
 
 Instead of investing heavily in data centers and servers before you know how you’re going to use them, you can pay only when you consume computing resources.
 
-### Benefit from massive economies of scale
+## Benefit from massive economies of scale
 
 By using cloud computing, you can achieve a lower variable cost than you can get on your own because usage from hundreds of thousands of customers aggregates in the cloud.
 
-### Stop guessing capacity
+## Stop guessing capacity
 
 With cloud computing, you don’t have to predict how much infrastructure capacity you will need before deploying an application. 
 
-### Increase speed and agility
+## Increase speed and agility
 
 The flexibility of cloud computing makes it easier for you to develop and deploy applications.
 
-### Stop spending money running and maintaining data centers
+## Stop spending money running and maintaining data centers
 
 Cloud computing in data centers often requires you to spend more money and time managing infrastructure and servers. 
 
-### Go global in minutes.
+## Go global in minutes.
 
 The AWS Cloud global footprint enables you to quickly deploy applications to customers around the world, while providing them with low latency.
 
@@ -88,7 +88,6 @@ The AWS Cloud global footprint enables you to quickly deploy applications to cus
 - The Performance Efficiency pillar focuses on using computing resources efficiently to meet system requirements and to maintain that efficiency as demand changes and technologies evolve.
 - The Reliability pillar focuses on the ability of a workload to consistently and correctly perform its intended functions.
 - Operational Excellence includes the ability to run workloads effectively and gain insights into their operations.
-- 
 
 ---
 
