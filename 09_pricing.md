@@ -165,6 +165,68 @@ AWS Cost Explorer includes a default report of the costs and usage for your top 
 
 ---
 
+# [AWS Support Plans](#aws-support-plans)
+
+**AWS offers four different [Support plans](https://aws.amazon.com/premiumsupport/plans/) to help you troubleshoot issues, lower costs, and efficiently use AWS services.** 
+
+In general, for pricing, **the Developer plan has the lowest cost**, the Business and Enterprise On-Ramp plans are in the middle, and **the Enterprise plan has the highest cost.**
+
+## [1. Basic](#1-basic)
+
+Basic Support is free for all AWS customers. It includes access to whitepapers, documentation, and support communities.
+
+With Basic Support, you have access to a **limited selection of AWS Trusted Advisor checks.** 
+
+Additionally, you can use the **AWS Personal Health Dashboard, a tool that provides alerts and remediation guidance when AWS is experiencing events that may affect you.** 
+
+## [2. Developer](#2-developer)
+
+Features:
+- Best practice guidance
+- Client-side diagnostic tools
+- Building-block architecture support, which consists of guidance for how to use AWS offerings, features, and services together.
+
+You can email customer support directly with a 24 hour response time on any questions you have. And responses of less than 12 hours in case your systems are impaired.
+
+## [3. Business](#3-business)
+
+Features:
+- Use-case guidance to identify AWS offerings, features, and services that can best support your specific needs
+- All AWS Trusted Advisor checks
+- Limited support for third-party software, such as common operating systems and application stack components.
+
+You are given direct phone access to AWS support team that has a four hour response SLA. Access to infrastructure event management.
+
+## [4 Enterprise](#4-enterprise)
+
+### [Enterprise On-Ramp Support](#enterprise-on-ramp-support)
+
+Features:
+- A pool of Technical Account Managers to provide proactive guidance and coordinate access to programs and AWS experts
+- A Cost Optimization workshop (one per year)
+- A Concierge support team for billing and account assistance
+- Tools to monitor costs and performance through Trusted Advisor and Health API/Dashboard
+
+### [Enterprise Support](#enterprise-support)
+
+Features:
+- Operations Reviews and tools to monitor health
+- Training and Game Days to drive innovation
+- Consultative review and architecture guidance
+- Infrastructure Event Management support
+- Support automation workflows
+- 15 minutes or less response time for business-critical issues
+
+---
+
+# [Technical Account Manager](#technical-account-manager)
+
+**The Enterprise On-Ramp and Enterprise Support plans include access to a Technical Account Manager (TAM).**
+
+The TAM is your primary point of contact at AWS. 
+
+---
+
 # [Notes](#notes)
 
 - S3 us free for 12 months for up to five gigs of storage.
@@ -174,7 +236,8 @@ AWS Cost Explorer includes a default report of the costs and usage for your top 
 - AWS Organizations is a service that enables you to manage multiple AWS accounts from a central location. AWS Organizations also provides the option for consolidated billing. 
 - Consolidated billing  enables you to share volume pricing discounts across accounts. 
 - In Amazon S3, after customers have transferred 10 TB of data in a month, they pay a lower per-GB transfer price for the next 40 TB of data transferred. 
-
+- Developer, Business, Enterprise On-Ramp, and Enterprise Support - *These Support plans have pay-by-the-month pricing and require no long-term contracts.*
+- Only the Business, Enterprise On-Ramp, and Enterprise Support plans include all AWS Trusted Advisor checks. Of these three Support plans, the Business Support plan has a lower cost.
 ---
 
 # References
@@ -182,3 +245,5 @@ AWS Cost Explorer includes a default report of the costs and usage for your top 
 - [AWS S3 Pricing](https://aws.amazon.com/s3/pricing/)
 - [AWS EC2 Pricing](https://aws.amazon.com/ec2/pricing/)
 - [AWS Lambda Pricing](https://aws.amazon.com/lambda/pricing/)
+- [AWS Support](https://aws.amazon.com/premiumsupport/plans/)
+- [Compare AWS Support Plans](https://aws.amazon.com/premiumsupport/plans/)
