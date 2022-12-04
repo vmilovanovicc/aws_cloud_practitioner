@@ -37,6 +37,36 @@ Within CloudTrail, you can also enable [CloudTrail Insights](https://docs.aws.am
 
 ---
 
+# [AWS Trusted Advisor](#aws-trusted-advisor)
+
+
+**[AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/) is a web service that inspects your AWS environment and provides real-time recommendations in accordance with AWS best practices.**
+
+This is a service that you can use in your AWS account that will evaluate your resources against five pillars:
+- **cost optimization**,
+- **performance**, 
+- **security**,
+- **fault tolerance**, and 
+- **service limits**.
+
+Some examples of checks are:
+- if you don't have multi-factor authentication turned on for your root user
+- ff you have underutilized EC2 instances that might be able to be turned off in order to save money
+- if you have EBS volumes that haven't been backed up in a reasonable amount of time.
+
+---
+
+## [AWS Trusted Advisor Dashboard](#aws-trusted-advisor-dashboard)
+
+![example](images/trusted_advisor.png "AWS CloudTrail Event Example")
+
+- The **green check** indicates the number of items for which it detected **no problems**.
+
+- The **orange triangle** represents the number of recommended **investigations**.
+
+- The **red circle** represents the number of recommended **actions**.
+
+
 # Notes
 
 - CloudWatch alarms are integrated with SNS.
@@ -44,3 +74,9 @@ Within CloudTrail, you can also enable [CloudTrail Insights](https://docs.aws.am
 ---
 
 # References
+
+- [Management and Governance on AWS](https://aws.amazon.com/products/management-tools)
+- [Monitoring and Observability](https://aws.amazon.com/products/management-tools/use-cases/monitoring-and-observability/)
+- [Configuration, Compliance and Auditing](https://aws.amazon.com/products/management-tools/use-cases/configuration-compliance-and-auditing/)
+- [AWS Management and Governance Blog](https://aws.amazon.com/blogs/mt/)
+- [AWS Governance at Scale](https://docs.aws.amazon.com/whitepapers/latest/aws-governance-at-scale/introduction.html) *whitepaper*
