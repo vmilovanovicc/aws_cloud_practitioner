@@ -1,5 +1,15 @@
 # CLF-C01 AWS Cloud Practitioner Exam Notes
 
+![CPP](images/aws_cpp_badge.png "AWS Cloud Practitioner Badge") 
+
+[My AWS Cloud Practitioner Badge](https://www.credly.com/badges/038699b6-7dd5-4b73-aea7-c8caea1b752f) :relaxed:
+
+![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/vmilovanovicc/aws_cloud_practitioner) ![NPM](https://img.shields.io/npm/l/express) 
+
+---
+
 # Overview
 
 | No  | Domain  | % of Exam |
